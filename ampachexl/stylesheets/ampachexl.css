@@ -1,0 +1,410 @@
+.leftMenu{
+	width: 300px;
+}
+
+.dark .LeftMenuKind,
+.dark .Playback {
+	color: white;
+	background-color: #0f0f0f;
+	background-image: url("../images/list-bg.png");
+	border-right: 1px solid #909090;
+}
+
+.dark .rightContent,
+.dark .listContent {
+	background-color: #1a1a1a;
+	background-image: url("../images/list-bg.png");
+	color: white;
+}
+
+.dark .enyo-toolbar {
+	color: white;
+	min-height: 56px;
+}
+
+.dark .listItem {
+	padding: 2px 10px 4px 10px;
+	background-color: rgba(0,0,0,0);
+	border-top: 1px solid silver;
+	border-bottom: none;
+}
+
+.listItem .listIndex {
+	font-size: 16px;
+	min-width: 26px;
+	text-align: center;
+	margin-right: 4px;
+	margin-left: -4px;
+}
+
+.listItem .title {
+	height: 25px;
+	font-size: 18px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listItem .subtitle {
+	height: 14px;
+	font-size: 12px;
+	text-align: left;
+	margin-left: 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listItem .count {
+	height: 14px;
+	font-size: 12px;
+	text-align: right;
+	font-style: italic;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listItem .listArt {
+	height: 40px;
+	width: 40px;
+	margin: 2px 4px 0px 0px;
+	border: 1px solid #3a3a3a;
+}
+
+.dark .listItem.selected {
+	background-color: rgba(255,255,255,0.15);
+}
+
+
+.dark .headerTitle  {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: white;
+	text-align: center;
+}
+
+.dark .headerSubtitle {
+	font-size: 14px;
+	height: 24px;
+	color:#a9a9a9;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dark .randomCarousel{
+	border-top: 1px solid silver;
+	border-bottom: none;
+}
+
+.truncating {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.playbackSongArt {
+	height: 200px;
+	width: 200px;
+	/*margin: 5px 50px;*/
+	margin: 5px 49px;
+	border: 1px solid #3a3a3a;
+}
+
+.playbackSongTitle {
+	text-align: center;
+	font-size: 16px;
+}
+
+.playbackSongArtist {
+	text-align: center;
+	font-size: 12px;
+}
+
+.playbackSongAlbum {
+	text-align: center;
+	font-size: 12px;
+}
+
+.playbackTime {
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size: 12px;
+	min-width: 28px;
+}
+
+.songTimeWrapper {
+	height: 32px;
+}
+.songSlider {
+	margin: -10px 10px;
+}
+
+.searchInputWrapper {
+	height: 43px;
+	padding-topdfd: 15px;
+}
+
+.searchInputWrapper .enyo-input {
+	border-width: 5px 14px 5px 14px;
+}
+
+.searchInputWrapper .enyo-input-input { 
+	margin-top: 5px;
+}
+
+.dark .searchInputWrapper {
+	border-top: 1px solid silver;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark .searchInputWrapper .enyo-input-focus {
+	-webkit-border-image: none;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #F2F2F2;
+}
+
+.dark .searchInputWrapper .enyo-input-input {
+	color: #F2F2F2;
+	font-style: italic;
+	margin-top: -5px;
+}
+
+.menuItem {
+	padding: 8px 10px;
+	height: 42px;
+	border-bottom: none;
+}
+
+.menuIcon {
+	width: 24px;
+	max-height: 24px;
+	padding-right: 5px;
+}
+
+.dark .menuItem {
+	border-top: 1px solid silver;
+}
+
+.editHost {
+	margin-left: 10px;
+}
+
+.deleteHost {
+	margin-left: 10px;
+}
+
+.randomSongArt {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #3a3a3a;
+}
+
+.randomSongArtist {
+	font-style: bold;
+	font-size: 20px;
+}
+
+.randomSongAlbum {
+	font-size: 24px;
+}
+
+.randomSongTracks {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.nowplayingMoveUp{
+	max-height: 30px;
+}
+
+.downloadsMoveUp {
+	margin-left: 5px;
+	max-height: 30px;
+}
+
+.nowplayingMoveDown,
+.downloadsMoveDown {
+	max-height: 30px;
+}
+
+.nowplayingRemove,
+.downloadsRemove {
+	max-height: 30px;
+}
+
+.songsMoreIcon {
+	margin-left: 5px;
+	max-height: 30px;
+}
+
+.morePopupMenu .enyo-menu-inner{
+	min-width: 300px;
+}
+
+.Dashboardkind {
+	background-color: #3a3a3a;
+}
+
+.dashboardArt {
+	height: 46px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.dashboardPrevious {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.dashboardPlayPause {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.dashboardNext {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.dashboardTitle {
+	height: 24px;
+	font-size: 16px;
+	color: white;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dashboardSubtitle {
+	height: 15px;
+	font-size: 12px;
+	color: white;
+	text-align: left;
+	margin-left: 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.helpContent {
+	padding: 5px;
+	margin: 5px;
+}
+
+.smallerFont {
+	font-size: 14px;
+}
+
+.dark .Help a {
+	color: #9DC8E7;
+}
+
+.backCommandIcon {
+	background-image: url("../images/menu-icon-return.png");
+	width: 32px;
+	height: 32px;
+	margin: 9px 0px 9px 2px;
+}
+
+.backCommandIconSpacer {
+	width: 32px;
+	height: 32px;
+	margin: 9px 2px 9px 0px;
+}
+
+.preferencesPopup .enyo-input-input {
+	text-align: right;
+}
+
+
+/* Light theme */
+.light .LeftMenuKind,
+.light .Playback {
+	color: black;
+	background-color: #c8c8c8;
+	background-image: url("../images/list-bg.png");
+	border-right: 1px solid #909090;
+}
+
+.light .rightContent,
+.light .listContent {
+	color: black;
+	background-color: #d8d8d8;
+	background-image: url("../images/list-bg.png");
+}
+
+.light .enyo-toolbar {
+	color: black;
+	min-height: 56px;
+	background-color: #999999;
+}
+
+.light .enyo-tool-button-client {
+	color: white;
+}
+
+.light .headerTitle  {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: black;
+	text-align: center;
+}
+
+.light .headerSubtitle {
+	font-size: 14px;
+	height: 24px;
+	color:#2a2a2a;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.light .randomCarousel{
+	border-top: 1px solid #606060;
+	border-bottom: none;
+}
+
+.light .menuItem {
+	border-top: 1px solid #606060;
+}
+
+.light .listItem {
+	padding: 2px 10px 4px 10px;
+	background-color: rgba(0,0,0,0);
+	border-top: 1px solid #808080;
+	border-bottom: none;
+}
+
+.light .listItem.selected {
+	background-color: rgba(0,0,0,0.15);
+}
+
+.light .searchInputWrapper {
+	border-top: 1px solid #606060;
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.light .searchInputWrapper .enyo-input-focus {
+	-webkit-border-image: none;
+	background-color: rgba(0,0,0, 0.1);
+	color: #0f0f0f;
+}
+
+.light .searchInputWrapper .enyo-input-input {
+	color: #0f0f0f;
+	font-style: italic;
+}
+
+.light .Help a {
+	color: #0000ff;
+}

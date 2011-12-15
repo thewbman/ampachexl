@@ -1,0 +1,13 @@
+Todo: 
+
+ - sort lists
+ - coverflow?
+ - add recent and random to left menu?
+ - bind volume keys to media?
+ - last.fm error handling
+ - details view from click on playback
+ - show "loading" when starting playback
+ - status and errors during login
+ - videos download
+ 
+ 

@@ -1,0 +1,11 @@
+{
+	"id": "com.thewbman.ampachexl",
+	"version": "0.3.7",
+	"vendor": "thewbman",
+	"type": "web",
+	"main": "device.html",
+	"title": "Ampache XL",
+	"icon": "circleback2.png",
+	"uiRevision": "2",
+	"plug-ins": true
+}
