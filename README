@@ -1,1 +1,19 @@
 AmpacheXL
+
+Overview
+
+A webOS app for Ampache written in the enyo framework and designed for use on a tablet. The app takes some inspiration and tiny bit of code from the Ampache Mobile app, though it was written from scratch using a completely different framework.
+
+WARNING: This app requires an Ampache Server to connect to. That means you will be responsible for installing and configuring your very own web server. Setting up Ampache is not a hard task but it's also not trivial. If you are a beginner be sure to read up and look to the forums for help and be prepared to spend some time.
+Current Features
+
+    Connects quickly to an existing Ampache system
+    Multiple Ampache system settings can be saved on the app
+    Supports various Ampache features like album art and transcoding of music files to different formats (configured on server side)
+    Search through your entire music catalog quickly
+    Buffering of next song for seamless playback
+    Dashboard controls 
+	
+	
+	
+Original development was done on Google Code using SVN, but moved here in order to allow better access for other developers.
